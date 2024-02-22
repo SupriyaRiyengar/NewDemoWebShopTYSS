@@ -29,7 +29,6 @@ public class AddToCartTest extends BaseTest {
 		loginpage.enterEmail(email);
 		loginpage.enterpassword(password);
 		loginpage.clickLoginButton();
-		System.out.println();
 		HomePage homepage = new HomePage(driver);
 		try {
 		softassert.assertTrue(homepage.getlogOutLink().isDisplayed());
