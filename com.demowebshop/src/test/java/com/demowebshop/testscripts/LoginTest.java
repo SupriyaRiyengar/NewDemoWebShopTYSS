@@ -33,6 +33,8 @@ public class LoginTest extends BaseTest{
 			e.printStackTrace();
 			Reporter.log("User not logged in");
 		}
+		
+		softassert.assertAll();
 	}
 	@DataProvider(name="loginData")
 	public String[][] loginDataProvider() throws EncryptedDocumentException, IOException {

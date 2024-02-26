@@ -20,7 +20,7 @@ public class BooksPage extends BasePage {
     @FindBy(xpath="//input[@id=\"add-to-cart-button-13\"]")
    private WebElement AddToCart1;
     
-    @FindBy(xpath="//a[text()='Fiction']")
+    @FindBy(xpath="(//a[text()='Fiction'])[2]")
    private WebElement Fiction;
     
     @FindBy(xpath="//input[@id=\"add-to-cart-button-45\"]")

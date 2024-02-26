@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-23T12:31:18 IST" name="Default suite" finished-at="2024-02-23T12:31:38 IST" duration-ms="20173">
+    <groups>
+    </groups>
+    <test started-at="2024-02-23T12:31:18 IST" name="Default test" finished-at="2024-02-23T12:31:38 IST" duration-ms="20173">
+      <class name="com.demowebshop.testscripts.AddToCartTest">
+        <test-method is-config="true" signature="reportConfig()[pri:0, instance:com.demowebshop.testscripts.AddToCartTest@793f29ff]" started-at="2024-02-23T12:31:18 IST" name="reportConfig" finished-at="2024-02-23T12:31:18 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfig -->
+        <test-method is-config="true" signature="browserSetup(java.lang.reflect.Method)[pri:0, instance:com.demowebshop.testscripts.AddToCartTest@793f29ff]" started-at="2024-02-23T12:31:19 IST" name="browserSetup" finished-at="2024-02-23T12:31:26 IST" duration-ms="7069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demowebshop.testscripts.AddToCartTest.TCShoppingCart001(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="TCShoppingCart001(java.lang.String,java.lang.String)[pri:0, instance:com.demowebshop.testscripts.AddToCartTest@793f29ff]" started-at="2024-02-23T12:31:26 IST" name="TCShoppingCart001" data-provider="addToCart" finished-at="2024-02-23T12:31:38 IST" duration-ms="12135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vidheyck@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TCShoppingCart001 -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:com.demowebshop.testscripts.AddToCartTest@793f29ff]" started-at="2024-02-23T12:31:38 IST" name="browserTearDown" finished-at="2024-02-23T12:31:38 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+        <test-method is-config="true" signature="reportFlush()[pri:0, instance:com.demowebshop.testscripts.AddToCartTest@793f29ff]" started-at="2024-02-23T12:31:38 IST" name="reportFlush" finished-at="2024-02-23T12:31:38 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- com.demowebshop.testscripts.AddToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

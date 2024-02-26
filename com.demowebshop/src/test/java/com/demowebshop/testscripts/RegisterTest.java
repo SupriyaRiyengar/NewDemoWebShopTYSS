@@ -46,6 +46,7 @@ public class RegisterTest extends BaseTest{
 			e.printStackTrace();
 			Reporter.log("User not registered");
 		}
+		softassert.assertAll();
 	}
 	
 	@DataProvider(name="registerData")

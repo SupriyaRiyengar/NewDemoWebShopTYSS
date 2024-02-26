@@ -24,6 +24,7 @@ public class AddToCartTest extends BaseTest {
 		WelcomePage welcomepage = new WelcomePage(driver);
 		welcomepage.clickLogin();
 		test.log(Status.INFO,"Login page is displayed");
+	
 
 		LoginPage loginpage = new LoginPage(driver);
 		loginpage.enterEmail(email);
@@ -41,6 +42,7 @@ public class AddToCartTest extends BaseTest {
 		bookspage.addToCart();
 		
 		ShoppingCartPage shoppingCartPage= new ShoppingCartPage(driver);
+		shoppingCartPage.clickShoppingCart();
 	   softassert.assertTrue(shoppingCartPage.firstProductName()
 				.contains("Computing and Internet"));
 	   test.log(Status.PASS,"Product id added to cart");
